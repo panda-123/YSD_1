@@ -1,0 +1,131 @@
+[ {
+  "uid" : "858967ab60935619",
+  "name" : "字段输入场景：特殊字符测试",
+  "time" : {
+    "start" : 1597973520830,
+    "stop" : 1597973522936,
+    "duration" : 2106
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "58b4a6fabbdaa46b",
+  "name" : "字段输入场景：错误值",
+  "time" : {
+    "start" : 1597973382110,
+    "stop" : 1597973383979,
+    "duration" : 1869
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8df29ee821cc5cfa",
+  "name" : "字段输入场景：汉字测试",
+  "time" : {
+    "start" : 1597973517293,
+    "stop" : 1597973519014,
+    "duration" : 1721
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f03553a67aa58fd",
+  "name" : "字段输入场景：错误值",
+  "time" : {
+    "start" : 1597973522967,
+    "stop" : 1597973524895,
+    "duration" : 1928
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "34ccf2f9cc5329e6",
+  "name" : "税务认证页面字段检查",
+  "time" : {
+    "start" : 1597973513128,
+    "stop" : 1597973513156,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d47e874ae4d8616",
+  "name" : "字段输入场景：字母测试",
+  "time" : {
+    "start" : 1597973519045,
+    "stop" : 1597973520799,
+    "duration" : 1754
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a960d5a915811591",
+  "name" : "字段输入场景：数字测试",
+  "time" : {
+    "start" : 1597973513163,
+    "stop" : 1597973515217,
+    "duration" : 2054
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fdaa35400c07754",
+  "name" : "字段输入场景：特殊字符测试",
+  "time" : {
+    "start" : 1597973380348,
+    "stop" : 1597973382083,
+    "duration" : 1735
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "14a978379ccce045",
+  "name" : "税务认证页面字段检查",
+  "time" : {
+    "start" : 1597973513066,
+    "stop" : 1597973513122,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2498426517ca64d",
+  "name" : "字段输入场景：正确值测试",
+  "time" : {
+    "start" : 1597973374536,
+    "stop" : 1597973376634,
+    "duration" : 2098
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbe7eab376a25b42",
+  "name" : "字段输入场景：正确值测试",
+  "time" : {
+    "start" : 1597973157474,
+    "stop" : 1597973159335,
+    "duration" : 1861
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "922e2426f8154113",
+  "name" : "字段输入场景：错误值",
+  "time" : {
+    "start" : 1597973164815,
+    "stop" : 1597973166878,
+    "duration" : 2063
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeea0e76fcb5cdb7",
+  "name" : "字段输入场景：正确值测试",
+  "time" : {
+    "start" : 1597973515327,
+    "stop" : 1597973517264,
+    "duration" : 1937
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

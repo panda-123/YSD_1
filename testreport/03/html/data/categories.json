@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "children" : [ {
+        "name" : "字段输入场景：数字测试",
+        "uid" : "12158a9a2eecbc7b",
+        "parentUid" : "80e931ca5672c9f999e1568edd077ea6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597906999157,
+          "stop" : 1597907001300,
+          "duration" : 2143
+        },
+        "flaky" : false,
+        "parameters" : [ "123456", "133025197102026633", "'杨伟传'", "1", "'数字测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：字母测试",
+        "uid" : "83389e2f4682fc0f",
+        "parentUid" : "80e931ca5672c9f999e1568edd077ea6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597907005166,
+          "stop" : 1597907006828,
+          "duration" : 1662
+        },
+        "flaky" : false,
+        "parameters" : [ "'adkfhad'", "133025197102026633", "'杨伟传'", "4", "'字母测试'", "18633793529" ]
+      } ],
+      "uid" : "80e931ca5672c9f999e1568edd077ea6"
+    }, {
+      "name" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "children" : [ {
+        "name" : "字段输入场景：正确值测试",
+        "uid" : "7626497368965281",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597907001389,
+          "stop" : 1597907003298,
+          "duration" : 1909
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "2", "'正确值测试'", "18633793529" ]
+      } ],
+      "uid" : "83eb6ffbd2821b755336b4be68cfbe98"
+    }, {
+      "name" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "children" : [ {
+        "name" : "字段输入场景：汉字测试",
+        "uid" : "e1488410b9cc7389",
+        "parentUid" : "cc2f1c72bbf4c1fa81a58be60739d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597907003323,
+          "stop" : 1597907005146,
+          "duration" : 1823
+        },
+        "flaky" : false,
+        "parameters" : [ "'测试'", "133025197102026633", "'杨伟传'", "3", "'汉字测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：特殊字符测试",
+        "uid" : "ee317c216cd19dd3",
+        "parentUid" : "cc2f1c72bbf4c1fa81a58be60739d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597907006845,
+          "stop" : 1597907008547,
+          "duration" : 1702
+        },
+        "flaky" : false,
+        "parameters" : [ "'！@#￥%……&'", "133025197102026633", "'杨伟传'", "4", "'特殊字符测试'", "18633793529" ]
+      } ],
+      "uid" : "cc2f1c72bbf4c1fa81a58be60739d641"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

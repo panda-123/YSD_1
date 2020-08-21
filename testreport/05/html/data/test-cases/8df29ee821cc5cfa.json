@@ -1,0 +1,324 @@
+{
+  "uid" : "8df29ee821cc5cfa",
+  "name" : "字段输入场景：汉字测试",
+  "fullName" : "testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum",
+  "historyId" : "dc7b7f591dee5ee86abcbddbfdd432fb",
+  "time" : {
+    "start" : 1597973517293,
+    "stop" : 1597973519014,
+    "duration" : 1721
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+  "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003EAAF60>\nstep = '汉字测试', creditNum = '测试', legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 3\n\n    @allure.title(\"字段输入场景：{step}\")\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n        self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n>       assert self.page.get_result() == \"\"\nE       AssertionError: assert '请输入社会统一信用代码！' == ''\nE         + 请输入社会统一信用代码！\n\ntestcase\\test_Taxcertify.py:35: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597973509984,
+      "stop" : 1597973513065,
+      "duration" : 3081
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+    "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003EAAF60>\nstep = '汉字测试', creditNum = '测试', legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 3\n\n    @allure.title(\"字段输入场景：{step}\")\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n        self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n>       assert self.page.get_result() == \"\"\nE       AssertionError: assert '请输入社会统一信用代码！' == ''\nE         + 请输入社会统一信用代码！\n\ntestcase\\test_Taxcertify.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "字段测试：社会统一信用代码",
+      "time" : {
+        "start" : 1597973517293,
+        "stop" : 1597973519014,
+        "duration" : 1721
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！\n",
+      "statusTrace" : "  File \"E:\\Hogwarts\\python\\douban\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\Hogwarts\\python\\YSD\\testcase\\test_Taxcertify.py\", line 35, in test_input_creditNum\n    assert self.page.get_result() == \"\"\n",
+      "steps" : [ {
+        "name" : "社会统一信用代码",
+        "time" : {
+          "start" : 1597973517293,
+          "stop" : 1597973517395,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "creditNum",
+          "value" : "'测试'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "法人姓名",
+        "time" : {
+          "start" : 1597973517395,
+          "stop" : 1597973517505,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "legalName",
+          "value" : "'杨伟传'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "法人身份证",
+        "time" : {
+          "start" : 1597973517506,
+          "stop" : 1597973517680,
+          "duration" : 174
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "legalCardNo",
+          "value" : "133025197102026633"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "联系人手机号码",
+        "time" : {
+          "start" : 1597973517680,
+          "stop" : 1597973517801,
+          "duration" : 121
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "teleNo",
+          "value" : "18633793529"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "营销人员编号",
+        "time" : {
+          "start" : 1597973517801,
+          "stop" : 1597973517883,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "personNo",
+          "value" : "3"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "勾选",
+        "time" : {
+          "start" : 1597973517884,
+          "stop" : 1597973517904,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "提交",
+        "time" : {
+          "start" : 1597973517904,
+          "stop" : 1597973519014,
+          "duration" : 1110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step",
+        "value" : "'汉字测试'"
+      }, {
+        "name" : "creditNum",
+        "value" : "'测试'"
+      }, {
+        "name" : "legalName",
+        "value" : "'杨伟传'"
+      }, {
+        "name" : "legalCardNo",
+        "value" : "133025197102026633"
+      }, {
+        "name" : "teleNo",
+        "value" : "18633793529"
+      }, {
+        "name" : "personNo",
+        "value" : "3"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "b891b3ea60db8b8",
+      "name" : "log",
+      "source" : "b891b3ea60db8b8.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597973524910,
+      "stop" : 1597973525122,
+      "duration" : 212
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试税务认证页面"
+  }, {
+    "name" : "story",
+    "value" : "字段输入"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Taxcertify"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaxCertify"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "70044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Taxcertify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "creditNum",
+    "value" : "'测试'"
+  }, {
+    "name" : "legalCardNo",
+    "value" : "133025197102026633"
+  }, {
+    "name" : "legalName",
+    "value" : "'杨伟传'"
+  }, {
+    "name" : "personNo",
+    "value" : "3"
+  }, {
+    "name" : "step",
+    "value" : "'汉字测试'"
+  }, {
+    "name" : "teleNo",
+    "value" : "18633793529"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5fb237b1c30659b0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597973376661,
+        "stop" : 1597973378579,
+        "duration" : 1918
+      }
+    }, {
+      "uid" : "321baf68d9d2b80a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597973159364,
+        "stop" : 1597973161120,
+        "duration" : 1756
+      }
+    }, {
+      "uid" : "64b15e23b2275adc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597973092207,
+        "stop" : 1597973094032,
+        "duration" : 1825
+      }
+    }, {
+      "uid" : "b2b809f322ea354a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597972649949,
+        "stop" : 1597972651953,
+        "duration" : 2004
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8df29ee821cc5cfa.json",
+  "parameterValues" : [ "'测试'", "133025197102026633", "'杨伟传'", "3", "'汉字测试'", "18633793529" ]
+}

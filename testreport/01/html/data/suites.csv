@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","testcase.test_Taxcertify.TestTaxCertify#test_taxcertifypage","48",""
+"passed","testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum","1081",""
+"passed","testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum","874",""
+"passed","testcase.test_Taxcertify.TestTaxCertify#test_taxcertifypage","29",""
+"passed","testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum","726",""
+"passed","testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum","971",""

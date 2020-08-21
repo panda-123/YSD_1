@@ -1,0 +1,156 @@
+{
+  "uid" : "edea3a079e8b5305",
+  "name" : "字段输入场景：数字测试",
+  "fullName" : "testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum",
+  "historyId" : "0cb993c0a6df67914418ad09240ec38b",
+  "time" : {
+    "start" : 1597916528192,
+    "stop" : 1597916529587,
+    "duration" : 1395
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'int' object is not callable",
+  "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003CEFD30>\nstep = '数字测试', creditNum = 123456, legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 1\n\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @allure.title(\"字段输入场景：{step}\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n>       self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n\ntestcase\\test_Taxcertify.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\Taxcertificationpage.py:89: in check_input\n    self.check_box()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.Taxcertificationpage.TaxCertificationPage object at 0x0000000003CB5A90>\n\n    def check_box(self):\n        el = self.find(self._contact_Check)\n        if el.is_selected():\n            pass\n        else:\n            el.click()\n>           logging.INFO(\"已勾选合同\")\nE           TypeError: 'int' object is not callable\n\npages\\Taxcertificationpage.py:68: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597916524783,
+      "stop" : 1597916528078,
+      "duration" : 3295
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'int' object is not callable",
+    "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003CEFD30>\nstep = '数字测试', creditNum = 123456, legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 1\n\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @allure.title(\"字段输入场景：{step}\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n>       self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n\ntestcase\\test_Taxcertify.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\npages\\Taxcertificationpage.py:89: in check_input\n    self.check_box()\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <pages.Taxcertificationpage.TaxCertificationPage object at 0x0000000003CB5A90>\n\n    def check_box(self):\n        el = self.find(self._contact_Check)\n        if el.is_selected():\n            pass\n        else:\n            el.click()\n>           logging.INFO(\"已勾选合同\")\nE           TypeError: 'int' object is not callable\n\npages\\Taxcertificationpage.py:68: TypeError",
+    "steps" : [ {
+      "name" : "字段测试：社会统一信用代码",
+      "time" : {
+        "start" : 1597916528192,
+        "stop" : 1597916529586,
+        "duration" : 1394
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: 'int' object is not callable\n",
+      "statusTrace" : "  File \"E:\\Hogwarts\\python\\douban\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\Hogwarts\\python\\YSD\\testcase\\test_Taxcertify.py\", line 35, in test_input_creditNum\n    self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n  File \"E:\\Hogwarts\\python\\YSD\\pages\\Taxcertificationpage.py\", line 89, in check_input\n    self.check_box()\n  File \"E:\\Hogwarts\\python\\YSD\\pages\\Taxcertificationpage.py\", line 68, in check_box\n    logging.INFO(\"已勾选合同\")\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step",
+        "value" : "'数字测试'"
+      }, {
+        "name" : "creditNum",
+        "value" : "123456"
+      }, {
+        "name" : "legalName",
+        "value" : "'杨伟传'"
+      }, {
+        "name" : "legalCardNo",
+        "value" : "133025197102026633"
+      }, {
+        "name" : "teleNo",
+        "value" : "18633793529"
+      }, {
+        "name" : "personNo",
+        "value" : "1"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597916531111,
+      "stop" : 1597916531231,
+      "duration" : 120
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "字段输入"
+  }, {
+    "name" : "feature",
+    "value" : "测试税务认证页面"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Taxcertify"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaxCertify"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "84084-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Taxcertify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "creditNum",
+    "value" : "123456"
+  }, {
+    "name" : "legalCardNo",
+    "value" : "133025197102026633"
+  }, {
+    "name" : "legalName",
+    "value" : "'杨伟传'"
+  }, {
+    "name" : "personNo",
+    "value" : "1"
+  }, {
+    "name" : "step",
+    "value" : "'数字测试'"
+  }, {
+    "name" : "teleNo",
+    "value" : "18633793529"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "edea3a079e8b5305.json",
+  "parameterValues" : [ "123456", "133025197102026633", "'杨伟传'", "1", "'数字测试'", "18633793529" ]
+}

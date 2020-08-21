@@ -1,0 +1,151 @@
+{
+  "uid" : "14a978379ccce045",
+  "name" : "税务认证页面字段检查",
+  "fullName" : "testcase.test_Taxcertify.TestTaxCertify#test_taxcertifypage",
+  "historyId" : "98bd7d9f3f0979086be1099a4456d553",
+  "time" : {
+    "start" : 1597973513066,
+    "stop" : 1597973513122,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597973509984,
+      "stop" : 1597973513065,
+      "duration" : 3081
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取页面所有字段",
+      "time" : {
+        "start" : 1597973513066,
+        "stop" : 1597973513122,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597973524910,
+      "stop" : 1597973525122,
+      "duration" : 212
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试税务认证页面"
+  }, {
+    "name" : "story",
+    "value" : "字段检查核对"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Taxcertify"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaxCertify"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "70044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Taxcertify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a12392147b901518",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597973367096,
+        "stop" : 1597973372154,
+        "duration" : 5058
+      }
+    }, {
+      "uid" : "c746f3827bcc019e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597973154922,
+        "stop" : 1597973154992,
+        "duration" : 70
+      }
+    }, {
+      "uid" : "c4d556ef189c2179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597973088131,
+        "stop" : 1597973088244,
+        "duration" : 113
+      }
+    }, {
+      "uid" : "db6cb4e1cd65ea08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597972644547,
+        "stop" : 1597972644624,
+        "duration" : 77
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14a978379ccce045.json",
+  "parameterValues" : [ "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']" ]
+}

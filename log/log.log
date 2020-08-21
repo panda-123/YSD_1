@@ -1,0 +1,4 @@
+
+Thu 20 Aug 2020 17:29:06 WARNING log_2.py 31 102952 warn message
+Thu 20 Aug 2020 17:29:06 ERROR log_2.py 32 102952 error message
+Thu 20 Aug 2020 17:29:06 CRITICAL log_2.py 33 102952 critical message

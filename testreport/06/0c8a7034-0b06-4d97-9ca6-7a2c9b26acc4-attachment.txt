@@ -1,0 +1,2 @@
+INFO     root:Taxcertificationpage.py:77 已勾选合同
+INFO     root:Taxcertificationpage.py:83 税务认证点击提交--------

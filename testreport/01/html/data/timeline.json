@@ -1,0 +1,85 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "isuser-PC",
+    "children" : [ {
+      "name" : "41956-MainThread",
+      "children" : [ {
+        "name" : "test_taxcertifypage[result0]",
+        "uid" : "4aad2354f07556",
+        "parentUid" : "b214b1ea54b5c7a0adbcb83d21978083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597894279403,
+          "stop" : 1597894279451,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "parameters" : [ "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']" ]
+      }, {
+        "name" : "test_input_creditNum[91120100556055891Q-杨伟传-133025197102026633-18633793529-2]",
+        "uid" : "9406f4f85f991273",
+        "parentUid" : "b214b1ea54b5c7a0adbcb83d21978083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597894280554,
+          "stop" : 1597894281635,
+          "duration" : 1081
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "2", "18633793529" ]
+      }, {
+        "name" : "test_input_creditNum[adkfhad-杨伟传-133025197102026633-18633793529-4]",
+        "uid" : "7adf53739d2b9384",
+        "parentUid" : "b214b1ea54b5c7a0adbcb83d21978083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597894282400,
+          "stop" : 1597894283274,
+          "duration" : 874
+        },
+        "flaky" : false,
+        "parameters" : [ "'adkfhad'", "133025197102026633", "'杨伟传'", "4", "18633793529" ]
+      }, {
+        "name" : "test_taxcertifypage[result1]",
+        "uid" : "d971dd556a3885b3",
+        "parentUid" : "b214b1ea54b5c7a0adbcb83d21978083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597894279458,
+          "stop" : 1597894279487,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']" ]
+      }, {
+        "name" : "test_input_creditNum[测试-杨伟传-133025197102026633-18633793529-3]",
+        "uid" : "67ad291377fd98d5",
+        "parentUid" : "b214b1ea54b5c7a0adbcb83d21978083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597894281646,
+          "stop" : 1597894282372,
+          "duration" : 726
+        },
+        "flaky" : false,
+        "parameters" : [ "'测试'", "133025197102026633", "'杨伟传'", "3", "18633793529" ]
+      }, {
+        "name" : "test_input_creditNum[123456-杨伟传-133025197102026633-18633793529-1]",
+        "uid" : "9cc497a876e2201a",
+        "parentUid" : "b214b1ea54b5c7a0adbcb83d21978083",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597894279534,
+          "stop" : 1597894280505,
+          "duration" : 971
+        },
+        "flaky" : false,
+        "parameters" : [ "123456", "133025197102026633", "'杨伟传'", "1", "18633793529" ]
+      } ],
+      "uid" : "b214b1ea54b5c7a0adbcb83d21978083"
+    } ],
+    "uid" : "1df7ad902a1f77eb28eac5cd43d68ffe"
+  } ]
+}

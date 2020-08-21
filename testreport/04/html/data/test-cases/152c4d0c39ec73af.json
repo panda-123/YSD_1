@@ -1,0 +1,126 @@
+{
+  "uid" : "152c4d0c39ec73af",
+  "name" : "税务认证页面字段检查",
+  "fullName" : "testcase.test_Taxcertify.TestTaxCertify#test_taxcertifypage",
+  "historyId" : "98bd7d9f3f0979086be1099a4456d553",
+  "time" : {
+    "start" : 1597917169360,
+    "stop" : 1597917169407,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597917166192,
+      "stop" : 1597917169357,
+      "duration" : 3165
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "字段检查",
+      "time" : {
+        "start" : 1597917169360,
+        "stop" : 1597917169407,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "result",
+        "value" : "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b5a551c823a3933a",
+      "name" : "log",
+      "source" : "b5a551c823a3933a.txt",
+      "type" : "text/plain",
+      "size" : 3795
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597917176849,
+      "stop" : 1597917177158,
+      "duration" : 309
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试税务认证页面"
+  }, {
+    "name" : "story",
+    "value" : "字段检查核对"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Taxcertify"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaxCertify"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "9744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Taxcertify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "result",
+    "value" : "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "152c4d0c39ec73af.json",
+  "parameterValues" : [ "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']" ]
+}

@@ -1,0 +1,321 @@
+{
+  "uid" : "46cde338e1a770e5",
+  "name" : "字段输入场景：字母测试",
+  "fullName" : "testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum",
+  "historyId" : "ac78bdf9df422deabcb8fd20471018dc",
+  "time" : {
+    "start" : 1597917962769,
+    "stop" : 1597917964602,
+    "duration" : 1833
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+  "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003CDFC50>\nstep = '字母测试', creditNum = 'adkfhad', legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 4\n\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @allure.title(\"字段输入场景：{step}\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n        self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n>       assert self.page.get_result() == \"\"\nE       AssertionError: assert '社会统一信用代码长度应为18位！' == ''\nE         + 社会统一信用代码长度应为18位！\n\ntestcase\\test_Taxcertify.py:36: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597917953281,
+      "stop" : 1597917956162,
+      "duration" : 2881
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+    "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003CDFC50>\nstep = '字母测试', creditNum = 'adkfhad', legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 4\n\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @allure.title(\"字段输入场景：{step}\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n        self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n>       assert self.page.get_result() == \"\"\nE       AssertionError: assert '社会统一信用代码长度应为18位！' == ''\nE         + 社会统一信用代码长度应为18位！\n\ntestcase\\test_Taxcertify.py:36: AssertionError",
+    "steps" : [ {
+      "name" : "字段测试：社会统一信用代码",
+      "time" : {
+        "start" : 1597917962769,
+        "stop" : 1597917964602,
+        "duration" : 1833
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！\n",
+      "statusTrace" : "  File \"E:\\Hogwarts\\python\\douban\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\Hogwarts\\python\\YSD\\testcase\\test_Taxcertify.py\", line 36, in test_input_creditNum\n    assert self.page.get_result() == \"\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step",
+        "value" : "'字母测试'"
+      }, {
+        "name" : "creditNum",
+        "value" : "'adkfhad'"
+      }, {
+        "name" : "legalName",
+        "value" : "'杨伟传'"
+      }, {
+        "name" : "legalCardNo",
+        "value" : "133025197102026633"
+      }, {
+        "name" : "teleNo",
+        "value" : "18633793529"
+      }, {
+        "name" : "personNo",
+        "value" : "4"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "a3f1803b41d84869",
+      "name" : "log",
+      "source" : "a3f1803b41d84869.txt",
+      "type" : "text/plain",
+      "size" : 136
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597917967291,
+      "stop" : 1597917967470,
+      "duration" : 179
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "字段输入"
+  }, {
+    "name" : "feature",
+    "value" : "测试税务认证页面"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Taxcertify"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaxCertify"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "13068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Taxcertify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "creditNum",
+    "value" : "'adkfhad'"
+  }, {
+    "name" : "legalCardNo",
+    "value" : "133025197102026633"
+  }, {
+    "name" : "legalName",
+    "value" : "'杨伟传'"
+  }, {
+    "name" : "personNo",
+    "value" : "4"
+  }, {
+    "name" : "step",
+    "value" : "'字母测试'"
+  }, {
+    "name" : "teleNo",
+    "value" : "18633793529"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dc6a4d0752936c1a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917942132,
+        "stop" : 1597917942203,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "9e2a301b1583e6a3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917905062,
+        "stop" : 1597917905126,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "c65ccafd166cc8d0",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917871655,
+        "stop" : 1597917871717,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "dd240180de004c0b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917844570,
+        "stop" : 1597917844631,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "84fd76f45ead27db",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597917779399,
+        "stop" : 1597917781239,
+        "duration" : 1840
+      }
+    }, {
+      "uid" : "f01981aa95f74905",
+      "status" : "broken",
+      "statusDetails" : "TypeError: not all arguments converted during string formatting",
+      "time" : {
+        "start" : 1597917666295,
+        "stop" : 1597917668302,
+        "duration" : 2007
+      }
+    }, {
+      "uid" : "c5b8e781077ab869",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917582903,
+        "stop" : 1597917582967,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "961870e116daa7fd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917514914,
+        "stop" : 1597917514971,
+        "duration" : 57
+      }
+    }, {
+      "uid" : "364e5ed699c39dcb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917474379,
+        "stop" : 1597917474456,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "8c184c9a16bde751",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917439493,
+        "stop" : 1597917439551,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "70521e7e0cf3bc36",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"loading\" style=\"display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597917176500,
+        "stop" : 1597917176587,
+        "duration" : 87
+      }
+    }, {
+      "uid" : "6c79f4c72feeb9ad",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"popup\" id=\"falseAlert\" style=\"z-index: 20; display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597916753327,
+        "stop" : 1597916753490,
+        "duration" : 163
+      }
+    }, {
+      "uid" : "ff7c461bccc26fb3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"loading\" style=\"display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597916584551,
+        "stop" : 1597916584615,
+        "duration" : 64
+      }
+    }, {
+      "uid" : "d6d77e431e470d9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: Element <input class=\"right-item\" placeholder=\"请输入社会统一信用代码\" type=\"text\" id=\"creditNum\" name=\"creditNum\" oninput=\"if(value.length>18)value=value.slice(0,18);\" style=\"background: rgb(138, 43, 255);\"> is not clickable at point (716, 68). Other element would receive the click: <div class=\"loading\" style=\"display: block;\">...</div>\n  (Session info: chrome=78.0.3904.108)\n  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1597916530833,
+        "stop" : 1597916530902,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "bebd44c9a22c71af",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597916234083,
+        "stop" : 1597916235741,
+        "duration" : 1658
+      }
+    }, {
+      "uid" : "47134b22605835e2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597912647864,
+        "stop" : 1597912649572,
+        "duration" : 1708
+      }
+    }, {
+      "uid" : "52c01c6ccb9d6c62",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597912557301,
+        "stop" : 1597912558970,
+        "duration" : 1669
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "46cde338e1a770e5.json",
+  "parameterValues" : [ "'adkfhad'", "133025197102026633", "'杨伟传'", "4", "'字母测试'", "18633793529" ]
+}

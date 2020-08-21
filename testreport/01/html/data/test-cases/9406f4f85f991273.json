@@ -1,0 +1,146 @@
+{
+  "uid" : "9406f4f85f991273",
+  "name" : "test_input_creditNum[91120100556055891Q-杨伟传-133025197102026633-18633793529-2]",
+  "fullName" : "testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum",
+  "historyId" : "7dccace21845e1c27bda3a960e69e0a9",
+  "time" : {
+    "start" : 1597894280554,
+    "stop" : 1597894281635,
+    "duration" : 1081
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597894276157,
+      "stop" : 1597894279401,
+      "duration" : 3244
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "社会统一信用代码:字段测试",
+      "time" : {
+        "start" : 1597894280554,
+        "stop" : 1597894281634,
+        "duration" : 1080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "creditNum",
+        "value" : "'91120100556055891Q'"
+      }, {
+        "name" : "legalName",
+        "value" : "'杨伟传'"
+      }, {
+        "name" : "legalCardNo",
+        "value" : "133025197102026633"
+      }, {
+        "name" : "teleNo",
+        "value" : "18633793529"
+      }, {
+        "name" : "personNo",
+        "value" : "2"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7ff3d5b1d6d7bb7f",
+      "name" : "stdout",
+      "source" : "7ff3d5b1d6d7bb7f.txt",
+      "type" : "text/plain",
+      "size" : 1
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597894283299,
+      "stop" : 1597894283299,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Taxcertify"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaxCertify"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "41956-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Taxcertify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "creditNum",
+    "value" : "'91120100556055891Q'"
+  }, {
+    "name" : "legalCardNo",
+    "value" : "133025197102026633"
+  }, {
+    "name" : "legalName",
+    "value" : "'杨伟传'"
+  }, {
+    "name" : "personNo",
+    "value" : "2"
+  }, {
+    "name" : "teleNo",
+    "value" : "18633793529"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9406f4f85f991273.json",
+  "parameterValues" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "2", "18633793529" ]
+}

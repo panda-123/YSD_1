@@ -1,0 +1,160 @@
+{
+  "0cb993c0a6df67914418ad09240ec38b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0059fa2952c9b7e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597974799551,
+        "stop" : 1597974816670,
+        "duration" : 17119
+      }
+    } ]
+  },
+  "e0003c7eab9b3e4b953621a21687b05c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f913ef2db8d170a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597974860025,
+        "stop" : 1597974861843,
+        "duration" : 1818
+      }
+    } ]
+  },
+  "98bd7d9f3f0979086be1099a4456d553" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9704adfe7f50c3a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597974799442,
+        "stop" : 1597974799510,
+        "duration" : 68
+      }
+    } ]
+  },
+  "dc7b7f591dee5ee86abcbddbfdd432fb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5f3090f8254aeec",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597974819032,
+        "stop" : 1597974831208,
+        "duration" : 12176
+      }
+    } ]
+  },
+  "1ec7196e46f8bd5f962f70c6e50c4dfe" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc056e19a9858940",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597974816753,
+        "stop" : 1597974819004,
+        "duration" : 2251
+      }
+    } ]
+  },
+  "365f5bdfea4ec4b345e63ec11b603ab5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ef1f72700b737eb5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597974848158,
+        "stop" : 1597974859992,
+        "duration" : 11834
+      }
+    } ]
+  },
+  "7deb4737d466667223caddbd8e7aeb6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6afcc8e4a804ad99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597974799517,
+        "stop" : 1597974799545,
+        "duration" : 28
+      }
+    } ]
+  },
+  "ac78bdf9df422deabcb8fd20471018dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78c1c464a18f1717",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597974831249,
+        "stop" : 1597974848129,
+        "duration" : 16880
+      }
+    } ]
+  }
+}

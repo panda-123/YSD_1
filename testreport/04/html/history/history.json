@@ -1,0 +1,140 @@
+{
+  "0cb993c0a6df67914418ad09240ec38b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "35ae8db525d2b8c5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597917956276,
+        "stop" : 1597917959101,
+        "duration" : 2825
+      }
+    } ]
+  },
+  "98bd7d9f3f0979086be1099a4456d553" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "924b4b9e911b37f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597917956164,
+        "stop" : 1597917956216,
+        "duration" : 52
+      }
+    } ]
+  },
+  "dc7b7f591dee5ee86abcbddbfdd432fb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18cad4e57f3dc5c7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597917961002,
+        "stop" : 1597917962739,
+        "duration" : 1737
+      }
+    } ]
+  },
+  "55c9913b334223446747480c8cabaef2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e85b9e52dc29070f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "time" : {
+        "start" : 1597917959184,
+        "stop" : 1597917960978,
+        "duration" : 1794
+      }
+    } ]
+  },
+  "5cf1e0d725d0fd57df509970dc1a59a4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14d222154e694252",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597917964629,
+        "stop" : 1597917967275,
+        "duration" : 2646
+      }
+    } ]
+  },
+  "7deb4737d466667223caddbd8e7aeb6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22ddd73f58e0f77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597917956221,
+        "stop" : 1597917956267,
+        "duration" : 46
+      }
+    } ]
+  },
+  "ac78bdf9df422deabcb8fd20471018dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46cde338e1a770e5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597917962769,
+        "stop" : 1597917964602,
+        "duration" : 1833
+      }
+    } ]
+  }
+}

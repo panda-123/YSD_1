@@ -1,0 +1,71 @@
+[ {
+  "uid" : "924b4b9e911b37f8",
+  "name" : "税务认证页面字段检查",
+  "time" : {
+    "start" : 1597917956164,
+    "stop" : 1597917956216,
+    "duration" : 52
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35ae8db525d2b8c5",
+  "name" : "字段输入场景：数字测试",
+  "time" : {
+    "start" : 1597917956276,
+    "stop" : 1597917959101,
+    "duration" : 2825
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "46cde338e1a770e5",
+  "name" : "字段输入场景：字母测试",
+  "time" : {
+    "start" : 1597917962769,
+    "stop" : 1597917964602,
+    "duration" : 1833
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "22ddd73f58e0f77e",
+  "name" : "税务认证页面字段检查",
+  "time" : {
+    "start" : 1597917956221,
+    "stop" : 1597917956267,
+    "duration" : 46
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e85b9e52dc29070f",
+  "name" : "字段输入场景：正确值测试",
+  "time" : {
+    "start" : 1597917959184,
+    "stop" : 1597917960978,
+    "duration" : 1794
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "18cad4e57f3dc5c7",
+  "name" : "字段输入场景：汉字测试",
+  "time" : {
+    "start" : 1597917961002,
+    "stop" : 1597917962739,
+    "duration" : 1737
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "14d222154e694252",
+  "name" : "字段输入场景：特殊字符测试",
+  "time" : {
+    "start" : 1597917964629,
+    "stop" : 1597917967275,
+    "duration" : 2646
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

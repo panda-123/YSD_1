@@ -1,0 +1,324 @@
+{
+  "uid" : "a960d5a915811591",
+  "name" : "字段输入场景：数字测试",
+  "fullName" : "testcase.test_Taxcertify.TestTaxCertify#test_input_creditNum",
+  "historyId" : "0cb993c0a6df67914418ad09240ec38b",
+  "time" : {
+    "start" : 1597973513163,
+    "stop" : 1597973515217,
+    "duration" : 2054
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+  "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003CE1FD0>\nstep = '数字测试', creditNum = 123456, legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 1\n\n    @allure.title(\"字段输入场景：{step}\")\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n        self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n>       assert self.page.get_result() == \"\"\nE       AssertionError: assert '社会统一信用代码长度应为18位！' == ''\nE         + 社会统一信用代码长度应为18位！\n\ntestcase\\test_Taxcertify.py:35: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1597973509984,
+      "stop" : 1597973513065,
+      "duration" : 3081
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+    "statusTrace" : "self = <testcase.test_Taxcertify.TestTaxCertify object at 0x0000000003CE1FD0>\nstep = '数字测试', creditNum = 123456, legalName = '杨伟传'\nlegalCardNo = 133025197102026633, teleNo = 18633793529, personNo = 1\n\n    @allure.title(\"字段输入场景：{step}\")\n    @allure.story(\"字段输入\")\n    @allure.step(\"字段测试：社会统一信用代码\")\n    @pytest.mark.parametrize(\"step,creditNum,legalName,legalCardNo,teleNo,personNo\",\n                             yaml.load(open(r\"E:\\Hogwarts\\python\\YSD\\data\\creditNum.yml\", encoding=\"UTF-8\")))\n    def test_input_creditNum(self,step,creditNum,legalName,legalCardNo,teleNo,personNo):\n        self.page.check_input(creditNum,legalName,legalCardNo,teleNo,personNo)\n>       assert self.page.get_result() == \"\"\nE       AssertionError: assert '社会统一信用代码长度应为18位！' == ''\nE         + 社会统一信用代码长度应为18位！\n\ntestcase\\test_Taxcertify.py:35: AssertionError",
+    "steps" : [ {
+      "name" : "字段测试：社会统一信用代码",
+      "time" : {
+        "start" : 1597973513163,
+        "stop" : 1597973515216,
+        "duration" : 2053
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！\n",
+      "statusTrace" : "  File \"E:\\Hogwarts\\python\\douban\\venv\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"E:\\Hogwarts\\python\\YSD\\testcase\\test_Taxcertify.py\", line 35, in test_input_creditNum\n    assert self.page.get_result() == \"\"\n",
+      "steps" : [ {
+        "name" : "社会统一信用代码",
+        "time" : {
+          "start" : 1597973513163,
+          "stop" : 1597973513328,
+          "duration" : 165
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "creditNum",
+          "value" : "123456"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "法人姓名",
+        "time" : {
+          "start" : 1597973513329,
+          "stop" : 1597973513462,
+          "duration" : 133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "legalName",
+          "value" : "'杨伟传'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "法人身份证",
+        "time" : {
+          "start" : 1597973513462,
+          "stop" : 1597973513652,
+          "duration" : 190
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "legalCardNo",
+          "value" : "133025197102026633"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "联系人手机号码",
+        "time" : {
+          "start" : 1597973513652,
+          "stop" : 1597973513801,
+          "duration" : 149
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "teleNo",
+          "value" : "18633793529"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "营销人员编号",
+        "time" : {
+          "start" : 1597973513802,
+          "stop" : 1597973513920,
+          "duration" : 118
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "personNo",
+          "value" : "1"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "勾选",
+        "time" : {
+          "start" : 1597973513920,
+          "stop" : 1597973513998,
+          "duration" : 78
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "提交",
+        "time" : {
+          "start" : 1597973513999,
+          "stop" : 1597973515213,
+          "duration" : 1214
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "step",
+        "value" : "'数字测试'"
+      }, {
+        "name" : "creditNum",
+        "value" : "123456"
+      }, {
+        "name" : "legalName",
+        "value" : "'杨伟传'"
+      }, {
+        "name" : "legalCardNo",
+        "value" : "133025197102026633"
+      }, {
+        "name" : "teleNo",
+        "value" : "18633793529"
+      }, {
+        "name" : "personNo",
+        "value" : "1"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 7,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "d7511dd3baf1ee96",
+      "name" : "log",
+      "source" : "d7511dd3baf1ee96.txt",
+      "type" : "text/plain",
+      "size" : 193
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 8,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1597973524910,
+      "stop" : 1597973525122,
+      "duration" : 212
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试税务认证页面"
+  }, {
+    "name" : "story",
+    "value" : "字段输入"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_Taxcertify"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaxCertify"
+  }, {
+    "name" : "host",
+    "value" : "isuser-PC"
+  }, {
+    "name" : "thread",
+    "value" : "70044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_Taxcertify"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "creditNum",
+    "value" : "123456"
+  }, {
+    "name" : "legalCardNo",
+    "value" : "133025197102026633"
+  }, {
+    "name" : "legalName",
+    "value" : "'杨伟传'"
+  }, {
+    "name" : "personNo",
+    "value" : "1"
+  }, {
+    "name" : "step",
+    "value" : "'数字测试'"
+  }, {
+    "name" : "teleNo",
+    "value" : "18633793529"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fa38d3cadd9ff808",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597973372200,
+        "stop" : 1597973374431,
+        "duration" : 2231
+      }
+    }, {
+      "uid" : "34f68a5fbabf8daf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597973155050,
+        "stop" : 1597973157387,
+        "duration" : 2337
+      }
+    }, {
+      "uid" : "bc21af119e4db1a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597973088283,
+        "stop" : 1597973090255,
+        "duration" : 1972
+      }
+    }, {
+      "uid" : "70071293ae4d1d47",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597972644814,
+        "stop" : 1597972647661,
+        "duration" : 2847
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a960d5a915811591.json",
+  "parameterValues" : [ "123456", "133025197102026633", "'杨伟传'", "1", "'数字测试'", "18633793529" ]
+}

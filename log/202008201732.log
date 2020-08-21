@@ -1,0 +1,3 @@
+Thu 20 Aug 2020 17:32:01 INFO log.py 33:logging.info: This is logging example, current file log level is logging.DEBUG
+Thu 20 Aug 2020 17:32:01 WARNING log.py 38:logging.warning: you can see this line in log file , for current file log level to logging.DEBUG, and logging.warning is above logging.DEBUG
+Thu 20 Aug 2020 17:32:01 ERROR log.py 41:logging.error: you can see this line in log file , for current file log level to logging.DEBUG, and logging.error is above logging.DEBUG

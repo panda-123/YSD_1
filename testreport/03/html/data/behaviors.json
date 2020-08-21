@@ -1,0 +1,93 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试税务认证页面",
+    "children" : [ {
+      "name" : "test_taxcertifypage[result0]",
+      "uid" : "773f980e3c731ff",
+      "parentUid" : "89321d50d6d6caaa4f1b8572607efcbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597906999040,
+        "stop" : 1597906999092,
+        "duration" : 52
+      },
+      "flaky" : false,
+      "parameters" : [ "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']" ]
+    }, {
+      "name" : "test_taxcertifypage[result1]",
+      "uid" : "fc4725f8d0729d84",
+      "parentUid" : "89321d50d6d6caaa4f1b8572607efcbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597906999103,
+        "stop" : 1597906999135,
+        "duration" : 32
+      },
+      "flaky" : false,
+      "parameters" : [ "['社会统一信用代码', '法人姓名', '法人身份证号', '联系人手机号', '营销人员编号']" ]
+    }, {
+      "name" : "字段输入场景：数字测试",
+      "uid" : "12158a9a2eecbc7b",
+      "parentUid" : "89321d50d6d6caaa4f1b8572607efcbc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1597906999157,
+        "stop" : 1597907001300,
+        "duration" : 2143
+      },
+      "flaky" : false,
+      "parameters" : [ "123456", "133025197102026633", "'杨伟传'", "1", "'数字测试'", "18633793529" ]
+    }, {
+      "name" : "字段输入场景：正确值测试",
+      "uid" : "7626497368965281",
+      "parentUid" : "89321d50d6d6caaa4f1b8572607efcbc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1597907001389,
+        "stop" : 1597907003298,
+        "duration" : 1909
+      },
+      "flaky" : false,
+      "parameters" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "2", "'正确值测试'", "18633793529" ]
+    }, {
+      "name" : "字段输入场景：汉字测试",
+      "uid" : "e1488410b9cc7389",
+      "parentUid" : "89321d50d6d6caaa4f1b8572607efcbc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1597907003323,
+        "stop" : 1597907005146,
+        "duration" : 1823
+      },
+      "flaky" : false,
+      "parameters" : [ "'测试'", "133025197102026633", "'杨伟传'", "3", "'汉字测试'", "18633793529" ]
+    }, {
+      "name" : "字段输入场景：字母测试",
+      "uid" : "83389e2f4682fc0f",
+      "parentUid" : "89321d50d6d6caaa4f1b8572607efcbc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1597907005166,
+        "stop" : 1597907006828,
+        "duration" : 1662
+      },
+      "flaky" : false,
+      "parameters" : [ "'adkfhad'", "133025197102026633", "'杨伟传'", "4", "'字母测试'", "18633793529" ]
+    }, {
+      "name" : "字段输入场景：特殊字符测试",
+      "uid" : "ee317c216cd19dd3",
+      "parentUid" : "89321d50d6d6caaa4f1b8572607efcbc",
+      "status" : "failed",
+      "time" : {
+        "start" : 1597907006845,
+        "stop" : 1597907008547,
+        "duration" : 1702
+      },
+      "flaky" : false,
+      "parameters" : [ "'！@#￥%……&'", "133025197102026633", "'杨伟传'", "4", "'特殊字符测试'", "18633793529" ]
+    } ],
+    "uid" : "89321d50d6d6caaa4f1b8572607efcbc"
+  } ]
+}

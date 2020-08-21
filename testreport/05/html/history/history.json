@@ -1,0 +1,260 @@
+{
+  "dc7b7f591dee5ee86abcbddbfdd432fb" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8df29ee821cc5cfa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597973517293,
+        "stop" : 1597973519014,
+        "duration" : 1721
+      }
+    } ]
+  },
+  "55c9913b334223446747480c8cabaef2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbe7eab376a25b42",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "time" : {
+        "start" : 1597973157474,
+        "stop" : 1597973159335,
+        "duration" : 1861
+      }
+    } ]
+  },
+  "365f5bdfea4ec4b345e63ec11b603ab5" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "858967ab60935619",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597973520830,
+        "stop" : 1597973522936,
+        "duration" : 2106
+      }
+    } ]
+  },
+  "5cf1e0d725d0fd57df509970dc1a59a4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3fdaa35400c07754",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "time" : {
+        "start" : 1597973380348,
+        "stop" : 1597973382083,
+        "duration" : 1735
+      }
+    } ]
+  },
+  "7deb4737d466667223caddbd8e7aeb6a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34ccf2f9cc5329e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597973513128,
+        "stop" : 1597973513156,
+        "duration" : 28
+      }
+    } ]
+  },
+  "dd558ee67f70de2ed4e312e9f33d7cb0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aeea0e76fcb5cdb7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "time" : {
+        "start" : 1597973515327,
+        "stop" : 1597973517264,
+        "duration" : 1937
+      }
+    } ]
+  },
+  "030fd71d3acdaa80dcc5a1066927d660" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "922e2426f8154113",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "time" : {
+        "start" : 1597973164815,
+        "stop" : 1597973166878,
+        "duration" : 2063
+      }
+    } ]
+  },
+  "0cb993c0a6df67914418ad09240ec38b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a960d5a915811591",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597973513163,
+        "stop" : 1597973515217,
+        "duration" : 2054
+      }
+    } ]
+  },
+  "0ec70c0f166bb6e00b583067f063ce4a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2498426517ca64d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "time" : {
+        "start" : 1597973374536,
+        "stop" : 1597973376634,
+        "duration" : 2098
+      }
+    } ]
+  },
+  "98bd7d9f3f0979086be1099a4456d553" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14a978379ccce045",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597973513066,
+        "stop" : 1597973513122,
+        "duration" : 56
+      }
+    } ]
+  },
+  "dccd9365b35c0c8878414f59d2626e28" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5f03553a67aa58fd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "time" : {
+        "start" : 1597973522967,
+        "stop" : 1597973524895,
+        "duration" : 1928
+      }
+    } ]
+  },
+  "48b61790828cbf41dad755c52f5fbf7f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "58b4a6fabbdaa46b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "time" : {
+        "start" : 1597973382110,
+        "stop" : 1597973383979,
+        "duration" : 1869
+      }
+    } ]
+  },
+  "ac78bdf9df422deabcb8fd20471018dc" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d47e874ae4d8616",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "time" : {
+        "start" : 1597973519045,
+        "stop" : 1597973520799,
+        "duration" : 1754
+      }
+    } ]
+  }
+}

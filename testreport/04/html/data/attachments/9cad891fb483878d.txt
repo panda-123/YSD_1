@@ -1,0 +1,15 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10543/session/3c78210cccf40a03d3d31969bcbfbc32/element {"using": "id", "value": "creditNum", "sessionId": "3c78210cccf40a03d3d31969bcbfbc32"}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:10543 "POST /session/3c78210cccf40a03d3d31969bcbfbc32/element HTTP/1.1" 200 102
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10543/session/3c78210cccf40a03d3d31969bcbfbc32/execute {"script": "arguments[0].style.background = 'rgb(138,43,266)';", "args": [{"ELEMENT": "0.5145382964498391-2", "element-6066-11e4-a52e-4f735466cecf": "0.5145382964498391-2"}], "sessionId": "3c78210cccf40a03d3d31969bcbfbc32"}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:10543 "POST /session/3c78210cccf40a03d3d31969bcbfbc32/execute HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10543/session/3c78210cccf40a03d3d31969bcbfbc32/element/0.5145382964498391-2/clear {"id": "0.5145382964498391-2", "sessionId": "3c78210cccf40a03d3d31969bcbfbc32"}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:10543 "POST /session/3c78210cccf40a03d3d31969bcbfbc32/element/0.5145382964498391-2/clear HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10543/session/3c78210cccf40a03d3d31969bcbfbc32/element/0.5145382964498391-2/click {"id": "0.5145382964498391-2", "sessionId": "3c78210cccf40a03d3d31969bcbfbc32"}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:10543 "POST /session/3c78210cccf40a03d3d31969bcbfbc32/element/0.5145382964498391-2/click HTTP/1.1" 200 676
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:10543/session/3c78210cccf40a03d3d31969bcbfbc32/window {"sessionId": "3c78210cccf40a03d3d31969bcbfbc32"}
+DEBUG    urllib3.connectionpool:connectionpool.py:442 http://127.0.0.1:10543 "DELETE /session/3c78210cccf40a03d3d31969bcbfbc32/window HTTP/1.1" 200 70
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

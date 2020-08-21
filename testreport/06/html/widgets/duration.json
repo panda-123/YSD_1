@@ -1,0 +1,81 @@
+[ {
+  "uid" : "bc056e19a9858940",
+  "name" : "字段输入场景：正确值测试",
+  "time" : {
+    "start" : 1597974816753,
+    "stop" : 1597974819004,
+    "duration" : 2251
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0059fa2952c9b7e",
+  "name" : "字段输入场景：数字测试",
+  "time" : {
+    "start" : 1597974799551,
+    "stop" : 1597974816670,
+    "duration" : 17119
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6afcc8e4a804ad99",
+  "name" : "税务认证页面字段检查",
+  "time" : {
+    "start" : 1597974799517,
+    "stop" : 1597974799545,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef1f72700b737eb5",
+  "name" : "字段输入场景：特殊字符测试",
+  "time" : {
+    "start" : 1597974848158,
+    "stop" : 1597974859992,
+    "duration" : 11834
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "78c1c464a18f1717",
+  "name" : "字段输入场景：字母测试",
+  "time" : {
+    "start" : 1597974831249,
+    "stop" : 1597974848129,
+    "duration" : 16880
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5f3090f8254aeec",
+  "name" : "字段输入场景：汉字测试",
+  "time" : {
+    "start" : 1597974819032,
+    "stop" : 1597974831208,
+    "duration" : 12176
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9704adfe7f50c3a7",
+  "name" : "税务认证页面字段检查",
+  "time" : {
+    "start" : 1597974799442,
+    "stop" : 1597974799510,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f913ef2db8d170a",
+  "name" : "字段输入场景：错误值",
+  "time" : {
+    "start" : 1597974860025,
+    "stop" : 1597974861843,
+    "duration" : 1818
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

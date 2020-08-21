@@ -1,0 +1,81 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "children" : [ {
+        "name" : "test_input_creditNum[数字测试-123456-杨伟传-133025197102026633-18633793529-1]",
+        "uid" : "682db4d6cfb961b8",
+        "parentUid" : "80e931ca5672c9f999e1568edd077ea6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597906545388,
+          "stop" : 1597906552399,
+          "duration" : 7011
+        },
+        "flaky" : false,
+        "parameters" : [ "123456", "133025197102026633", "'杨伟传'", "1", "'数字测试'", "18633793529" ]
+      }, {
+        "name" : "test_input_creditNum[字母测试-adkfhad-杨伟传-133025197102026633-18633793529-4]",
+        "uid" : "1266ce94ece9f44c",
+        "parentUid" : "80e931ca5672c9f999e1568edd077ea6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597906556036,
+          "stop" : 1597906557679,
+          "duration" : 1643
+        },
+        "flaky" : false,
+        "parameters" : [ "'adkfhad'", "133025197102026633", "'杨伟传'", "4", "'字母测试'", "18633793529" ]
+      } ],
+      "uid" : "80e931ca5672c9f999e1568edd077ea6"
+    }, {
+      "name" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "children" : [ {
+        "name" : "test_input_creditNum[正确值测试-91120100556055891Q-杨伟传-133025197102026633-18633793529-2]",
+        "uid" : "379cbff463a7c8c3",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597906552484,
+          "stop" : 1597906554303,
+          "duration" : 1819
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "2", "'正确值测试'", "18633793529" ]
+      } ],
+      "uid" : "83eb6ffbd2821b755336b4be68cfbe98"
+    }, {
+      "name" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "children" : [ {
+        "name" : "test_input_creditNum[汉字测试-测试-杨伟传-133025197102026633-18633793529-3]",
+        "uid" : "8c14cab0e91deed0",
+        "parentUid" : "cc2f1c72bbf4c1fa81a58be60739d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597906554332,
+          "stop" : 1597906556014,
+          "duration" : 1682
+        },
+        "flaky" : false,
+        "parameters" : [ "'测试'", "133025197102026633", "'杨伟传'", "3", "'汉字测试'", "18633793529" ]
+      }, {
+        "name" : "test_input_creditNum[特殊字符测试-！@#￥%……&-杨伟传-133025197102026633-18633793529-4]",
+        "uid" : "957e94fa22b4f24e",
+        "parentUid" : "cc2f1c72bbf4c1fa81a58be60739d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597906557698,
+          "stop" : 1597906559384,
+          "duration" : 1686
+        },
+        "flaky" : false,
+        "parameters" : [ "'！@#￥%……&'", "133025197102026633", "'杨伟传'", "4", "'特殊字符测试'", "18633793529" ]
+      } ],
+      "uid" : "cc2f1c72bbf4c1fa81a58be60739d641"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

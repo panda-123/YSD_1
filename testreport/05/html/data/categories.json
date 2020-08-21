@@ -1,0 +1,153 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'Failed-该客户经理不是零售客户经理' == ''\n  + Failed-该客户经理不是零售客户经理",
+      "children" : [ {
+        "name" : "字段输入场景：正确值测试",
+        "uid" : "dbe7eab376a25b42",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973157474,
+          "stop" : 1597973159335,
+          "duration" : 1861
+        },
+        "flaky" : true,
+        "parameters" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "2", "'正确值测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：错误值",
+        "uid" : "922e2426f8154113",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973164815,
+          "stop" : 1597973166878,
+          "duration" : 2063
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891A'", "133025197102026633", "'杨伟传'", "4", "'错误值'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：正确值测试",
+        "uid" : "2498426517ca64d",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973374536,
+          "stop" : 1597973376634,
+          "duration" : 2098
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "533", "'正确值测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：错误值",
+        "uid" : "58b4a6fabbdaa46b",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973382110,
+          "stop" : 1597973383979,
+          "duration" : 1869
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891A'", "133025197102026633", "'杨伟传'", "533", "'错误值'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：正确值测试",
+        "uid" : "aeea0e76fcb5cdb7",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973515327,
+          "stop" : 1597973517264,
+          "duration" : 1937
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891Q'", "133025197102026633", "'杨伟传'", "'001025'", "'正确值测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：错误值",
+        "uid" : "5f03553a67aa58fd",
+        "parentUid" : "83eb6ffbd2821b755336b4be68cfbe98",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973522967,
+          "stop" : 1597973524895,
+          "duration" : 1928
+        },
+        "flaky" : false,
+        "parameters" : [ "'91120100556055891A'", "133025197102026633", "'杨伟传'", "'001025'", "'错误值'", "18633793529" ]
+      } ],
+      "uid" : "83eb6ffbd2821b755336b4be68cfbe98"
+    }, {
+      "name" : "AssertionError: assert '请输入社会统一信用代码！' == ''\n  + 请输入社会统一信用代码！",
+      "children" : [ {
+        "name" : "字段输入场景：特殊字符测试",
+        "uid" : "3fdaa35400c07754",
+        "parentUid" : "cc2f1c72bbf4c1fa81a58be60739d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973380348,
+          "stop" : 1597973382083,
+          "duration" : 1735
+        },
+        "flaky" : true,
+        "parameters" : [ "'！@#￥%……&'", "133025197102026633", "'杨伟传'", "4", "'特殊字符测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：汉字测试",
+        "uid" : "8df29ee821cc5cfa",
+        "parentUid" : "cc2f1c72bbf4c1fa81a58be60739d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973517293,
+          "stop" : 1597973519014,
+          "duration" : 1721
+        },
+        "flaky" : true,
+        "parameters" : [ "'测试'", "133025197102026633", "'杨伟传'", "3", "'汉字测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：特殊字符测试",
+        "uid" : "858967ab60935619",
+        "parentUid" : "cc2f1c72bbf4c1fa81a58be60739d641",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973520830,
+          "stop" : 1597973522936,
+          "duration" : 2106
+        },
+        "flaky" : false,
+        "parameters" : [ "'！@#￥%……&'", "133025197102026633", "'杨伟传'", "5", "'特殊字符测试'", "18633793529" ]
+      } ],
+      "uid" : "cc2f1c72bbf4c1fa81a58be60739d641"
+    }, {
+      "name" : "AssertionError: assert '社会统一信用代码长度应为18位！' == ''\n  + 社会统一信用代码长度应为18位！",
+      "children" : [ {
+        "name" : "字段输入场景：数字测试",
+        "uid" : "a960d5a915811591",
+        "parentUid" : "80e931ca5672c9f999e1568edd077ea6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973513163,
+          "stop" : 1597973515217,
+          "duration" : 2054
+        },
+        "flaky" : true,
+        "parameters" : [ "123456", "133025197102026633", "'杨伟传'", "1", "'数字测试'", "18633793529" ]
+      }, {
+        "name" : "字段输入场景：字母测试",
+        "uid" : "d47e874ae4d8616",
+        "parentUid" : "80e931ca5672c9f999e1568edd077ea6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1597973519045,
+          "stop" : 1597973520799,
+          "duration" : 1754
+        },
+        "flaky" : true,
+        "parameters" : [ "'adkfhad'", "133025197102026633", "'杨伟传'", "4", "'字母测试'", "18633793529" ]
+      } ],
+      "uid" : "80e931ca5672c9f999e1568edd077ea6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
