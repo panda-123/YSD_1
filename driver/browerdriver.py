@@ -25,7 +25,7 @@ class BrowerDriver(object):
         chrome_option.add_experimental_option("prefs", prefs)
         cls.driver = webdriver.Chrome(options=chrome_option)
 
-        cls.driver.get("https://www.douban.com/")
+        cls.driver.get("https://boltest2.lccb.com.cn:18006/perbank/EliteLoan/BankEasyLoan/taxCertify.html")
         # 隐式等待10s，全局等待
         cls.driver.implicitly_wait(10)
         return cls.driver

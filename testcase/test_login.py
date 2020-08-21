@@ -17,5 +17,11 @@ class TestLogin(object):
     def test_login(self):
         self.login.login_page("18633793529","ws123456")
         # element = self.driver.
-        assert self.login.find_text() == "我的豆瓣"
+        assert self.login.get_text() == "我的豆瓣"
+
+    def test_search_book(self):
+        self.login.login_page("18633793529","ws123456").\
+            to_books_page().\
+            search_book("利用python进行数据分析")
+
 
