@@ -2,7 +2,7 @@
 # author:herui
 # time:2020/8/12 17:23
 # function:
-from selenium import webdriver
+from appium import webdriver
 
 class BrowerDriver(object):
 

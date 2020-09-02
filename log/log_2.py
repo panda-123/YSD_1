@@ -14,16 +14,19 @@ logger = logging.getLogger()
 # create file handler
 log_path = "./log.log"
 fh = logging.FileHandler(log_path)
-fh.setLevel(logging.WARN)
+fh.setLevel(logging.DEBUG)
 
 # create formatter
 fmt = "%(asctime)-15s %(levelname)s %(filename)s %(lineno)d %(process)d %(message)s"
-datefmt = "%a %d %b %Y %H:%M:%S"
+datefmt = "%d %b %Y %H:%M:%S"
 formatter = logging.Formatter(fmt, datefmt)
 
 # add handler and formatter to logger
 fh.setFormatter(formatter)
 logger.addHandler(fh)
+
+a = "测试输出"
+logging.info("参数输出:", a)
 
 # print log info
 logger.debug('debug message')

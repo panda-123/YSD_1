@@ -40,3 +40,5 @@ if __name__ == '__main__':
     logging.error(
         "logging.error: you can see this line in log file , "
         "for current file log level to logging.DEBUG, and logging.error is above logging.DEBUG")
+    a = "123"
+    logging.info("参数输出：%s", a)

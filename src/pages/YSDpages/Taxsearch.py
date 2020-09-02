@@ -1,11 +1,13 @@
 #ecoding=utf-8
 # author:herui
 # time:2020/8/21 17:19
-# function:
+# function: 上传完身份证后，进行纳税信息查询
+import logging
+
 import allure
 from selenium.webdriver.common.by import By
 
-from pages.basepage import BasePage
+from src.pages.basepage import BasePage
 
 @allure.feature("纳税信息查询授权页面")
 class TaxSearch(BasePage):
@@ -39,6 +41,7 @@ class TaxSearch(BasePage):
         self.find(self._submit).click()
 
     def tax_search(self,nsrNum, certCode, pwd):
+        logging.info("-------进入税务查询授权页面。。。")
         self.input_nsrsbh(nsrNum)
         self.input_certCode(certCode)
         self.input_pwd(pwd)

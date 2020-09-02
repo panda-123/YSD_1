@@ -5,8 +5,7 @@
 
 import pytest
 
-from driver.browerdriver import BrowerDriver
-from pages.Taxcertificationpage import TaxCertificationPage
+from src.pages.YSDpages.Taxcertificationpage import TaxCertificationPage
 import yaml
 import allure
 

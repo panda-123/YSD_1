@@ -1,15 +1,18 @@
 #ecoding=utf-8
 # author:herui
 # time:2020/8/12 17:15
-# function:
-from driver.browerdriver import BrowerDriver
+# function: Web 页面相关方法
+
+# from driver.browerdriver import BrowerDriver
+from src.driver.appdriver import AppDriver
 
 class BasePage(object):
     def __init__(self):
-        self.driver = BrowerDriver.getDriver()
+        self.driver = AppDriver.getDriver()
 
     def find(self,locator):
         # 高亮显示元素定位
+        # web页面元素定位
         element = self.driver.find_element(*locator)
         self.driver.execute_script("arguments[0].style.background = 'rgb(138,43,266)';",
                                    element)

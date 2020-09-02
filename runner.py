@@ -13,11 +13,11 @@ import sys
 
 sys.path.append(os.path.dirname(sys.modules[__name__].__file__))
 
-file_name = r"E:\Hogwarts\python\YSD\log\uiauto.log"
-# time_line = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
-# log_path = os.getcwd() + "\\" + "log" + "\\"
-# print(log_path)
-# file_name = log_path + time_line + '.log'
+# file_name = r"E:\Hogwarts\python\YSD\log\uiauto.log"
+time_line = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+log_path = os.getcwd() + "\\" + "log" + "\\"
+print(log_path)
+file_name = log_path + time_line + '.log'
 
 # 创建处理器 fileHandler
 # 创建日志器logger，设置日志级别
@@ -37,10 +37,11 @@ logger.addHandler(filehandler)
 if __name__=="__main__":
     logging.info("开始执行了~~~~~~~~~~~~~~~~~~")
     # print(os.getcwd())
-    pytest.main(['-sq', './testcase/test_Taxcertify.py'])
-    # pytest.main(['-sq', '--alluredir','./testreport/06','./testcase/test_Taxcertify.py'])
-    # split = 'allure ' + 'generate ' + './testreport/06 ' + '-o ' + './testreport/06/html ' + '--clean'
-    # os.system('cd E:/Hogwarts/python/YSD/testreport/06')
-    # os.system(split)
+    # pytest.main(['-sq', './src/testcase/test_login.py'])
+    # pytest.main(['-sq', '--alluredir','./src/testreport/07','./src/testcase/test_Taxcertify.py'])
+    pytest.main(['-sq', '--alluredir','./src/testreport/13','./src/testcase/test_my_loan.py'])
+    split = 'allure ' + 'generate ' + './src/testreport/13 ' + '-o ' + './src/testreport/13/html ' + '--clean'
+    os.system('cd E:/Hogwarts/python/YSD/src/testreport/13')
+    os.system(split)
     # print(split)
-    logging.info("执行结束了--------------------")
+    logging.info("执行结束了~~~~~~~~~~~~~~~~~~")

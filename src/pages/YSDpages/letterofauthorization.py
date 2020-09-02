@@ -1,10 +1,10 @@
 #ecoding=utf-8
 # author:herui
 # time:2020/8/19 15:03
-# function:
+# function: 检查授权委托书
 from selenium.webdriver.common.by import By
 
-from pages.basepage import BasePage
+from src.pages.basepage import BasePage
 
 
 class LetterOfAuthorization(BasePage):
